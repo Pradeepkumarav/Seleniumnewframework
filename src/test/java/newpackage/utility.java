@@ -6,5 +6,10 @@ public class utility {
 		System.out.println("utility");
 
 	}
+       
+        public static void name()
+      {
+
+      }
 
 }
