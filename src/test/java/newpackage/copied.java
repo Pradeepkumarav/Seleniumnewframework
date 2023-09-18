@@ -6,6 +6,8 @@ public class copied {
 		System.out.println("new");
 
                  System.out.println("old");
+                System.out.println("new");
+
 
 	}
 
