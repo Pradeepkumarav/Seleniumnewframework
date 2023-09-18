@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="testNGlistener.Listenerclass"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <classes>
+      <class name="testNGlistener.Listner">
+        <methods>
+          <include name="testtofail"/>
+        </methods>
+      </class> <!-- testNGlistener.Listner -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
